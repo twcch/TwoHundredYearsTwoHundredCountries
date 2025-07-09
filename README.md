@@ -39,10 +39,10 @@ python scripts/plotly_visualization.py
 
 ## 🛠 使用技術
 
-- **資料處理**：`pandas`
-- **資料儲存**：`sqlite3`
-- **原型驗證**：`matplotlib`
-- **互動式視覺化**：`plotly.express`
+- **資料處理**: `pandas`
+- **資料儲存**: `sqlite3`
+- **原型驗證**: `matplotlib`
+- **互動式視覺化**: `plotly.express`
 
 ## 📚 參考資料
 
