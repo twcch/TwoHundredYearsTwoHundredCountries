@@ -11,19 +11,22 @@
 ## 📦 專案結構
 
 ```
+├── core/                # 共用程式碼
+│   ├── data.py
+│   ├── sqlite_db.py
 ├── data/                # 原始資料與處理後的 SQLite 資料庫
 ├── scripts/             # 各階段處理與視覺化程式碼
-│   ├── extract_data.py
 │   ├── build_database.py
-│   ├── explore_matplotlib.py
-│   └── plotly_visualization.py
-├── output/              # 動態圖表或影片輸出
+│   ├── build_view_table.py
+│   ├── proof_of_concept.py
+│   └── plot_with_px.py
+├── docs/                # 動態圖表或影片輸出
 └── README.md
 ```
 
 ## 📽 預覽
 
-👉 [放置動畫截圖或連結 GIF / MP4 / Plotly 線上頁面]
+👉 [https://twcch.io/TwoHundredYearsTwoHundredCountries/views.html](https://twcch.io/TwoHundredYearsTwoHundredCountries/views.html)
 
 ## 📌 安裝與執行
 
