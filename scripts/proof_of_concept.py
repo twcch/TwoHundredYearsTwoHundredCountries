@@ -37,7 +37,7 @@ def main():
         ax.set_xlim(0, 100000)
 
     ani = animation.FuncAnimation(fig, func=update_plot, frames=range(1800, 2024, 10))
-    ani.save('outputs/animation.gif', fps=10)
+    ani.save('docs/animation.gif', fps=10)
 
 
 if __name__ == '__main__':
