@@ -26,7 +26,7 @@ def main():
                      log_x=True,
                      title='Gapminder Clone 1800-2023')
 
-    fig.write_html('outputs/views.html', auto_open=True)
+    fig.write_html('docs/views.html', auto_open=True)
 
 
 if __name__ == '__main__':
