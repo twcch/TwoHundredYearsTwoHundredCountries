@@ -44,6 +44,8 @@ def main():
     view_df = create_view_df(gdp_per_capita, life_expectancy, population, geography)
     sqlite_db.create_table_from_dataframe('plotting', view_df)
 
+    sqlite_db.close()
+
 
 if __name__ == '__main__':
     main()

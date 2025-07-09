@@ -23,7 +23,8 @@ def run_step(desc: str, cmd: str) -> None:
 def main():
     steps = [
         ('scripts/build_database.py', f'python3 scripts/build_database.py'),
-        ('scripts/build_view_table.py', f'python3 scripts/build_view_table.py')
+        ('scripts/build_view_table.py', f'python3 scripts/build_view_table.py'),
+        ('scripts/proof_of_concept.py', f'python3 scripts/proof_of_concept.py')
     ]
 
     for desc, cmd in steps:
