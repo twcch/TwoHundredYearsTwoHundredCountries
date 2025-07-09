@@ -24,7 +24,7 @@ def main():
                      range_x=[500, 100000],
                      range_y=[20, 90],
                      log_x=True,
-                     title='Gapminder Clone 1800-2023')
+                     title='Dynamic Visualization: 200 Countries, 200 Years, 4 Minutes (1800-2023)')
 
     fig.write_html('docs/views.html', auto_open=True)
 
