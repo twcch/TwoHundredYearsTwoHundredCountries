@@ -24,7 +24,8 @@ def main():
     steps = [
         ('scripts/build_database.py', f'python3 scripts/build_database.py'),
         ('scripts/build_view_table.py', f'python3 scripts/build_view_table.py'),
-        ('scripts/proof_of_concept.py', f'python3 scripts/proof_of_concept.py')
+        ('scripts/proof_of_concept.py', f'python3 scripts/proof_of_concept.py'),
+        ('scripts/plot_with_px.py', f'python3 scripts/plot_with_px.py')
     ]
 
     for desc, cmd in steps:
